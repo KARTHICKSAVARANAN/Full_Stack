@@ -1,0 +1,29 @@
+/* #header{
+    background-color: blue;
+    
+}
+#imgid{
+    width: 50px;
+    height: 50px;
+}*/
+h1{
+    display: grid;
+    grid-auto-flow:self;
+    justify-self:stretch;
+} 
+#header {
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    background-color: blue;
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+#imgid {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; /* Add space between the image and the heading */
+}
+marquee {
+    margin: 0; /* Remove default margin */
+    color: white; /* Optional: Ensure the text is visible against the blue background */
+}
